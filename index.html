@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>桑超个人简历</title>
+
+    <!-- Bootstrap -->
+    <link href="lib/bootstrap-3.3.7-dist/css/bootstrap.css" rel="stylesheet">
+
+    <!-- HTML5 shim 和 Respond.js 是为了让 IE8 支持 HTML5 元素和媒体查询（media queries）功能 -->
+    <!-- 警告：通过 file:// 协议（就是直接将 html 页面拖拽到浏览器中）访问页面时 Respond.js 不起作用 -->
+    <!--[if lt IE 9]>
+    <script src="lib/bootstrap-3.3.7-dist/js/html5shiv.min.js"></script>
+    <script src="lib/bootstrap-3.3.7-dist/js/respond.min.js"></script>
+    <![endif]-->
+    <link rel="stylesheet" href="lib/base.css">
+    <link rel="stylesheet" href="lib/normalize.css">
+
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="lib/animation/animate.css">
+    <script src="lib/jquery-1.11.1.min.js"></script>
+    <script src="lib/echarts.min.js"></script>
+    <script src="lib/bootstrap-3.3.7-dist/js/bootstrap.js"></script>
+    <script src="lib/jquery.singlePageNav.min.js"></script>
+    <script src="lib/animation/wow.min.js"></script>
+    <script src="lib/template-web.js"></script>
+    <script src="js/main.js"></script>
+    <script id="imgCover1" type="text/html">
+        <div class="lvjing cover js-cover">
+            <div class="p-box">
+                <div class="p-item">
+                    <p>仿京东</p>
+                    <p>div+css的布局，轮播的实现，Tab的切换实现，秒杀及其他动画实现。</p>
+                </div>
+            </div>
+        </div>
+    </script>
+    <script id="imgCover2" type="text/html">
+        <div class="lvjing cover js-cover">
+            <div class="p-box">
+                <div class="p-item">
+                    <p>后台管理系统</p>
+                    <p>后台管理，菜单页的动态加载，数据的动态获取，数据的真加筛选，数据的可视化，银行卡的绑定及增减。输入框的验证。</p>
+                </div>
+            </div>
+        </div>
+    </script>
+    <script id="imgCover3" type="text/html">
+        <div class="lvjing cover js-cover">
+            <div class="p-box">
+                <div class="p-item">
+                    <p>小猪返现</p>
+                    <p>理财返现平台，div+css布局，展现动画，及业务功能</p>
+                </div>
+            </div>
+        </div>
+    </script>
+    <script id="imgCover4" type="text/html">
+        <div class="lvjing cover js-cover">
+            <div class="p-box">
+                <div class="p-item">
+                    <p>简历</p>
+                    <p>运用Bootstrap框架布局设计响应式页面</p>
+                </div>
+            </div>
+        </div>
+    </script>
+    <script id="imgCover5" type="text/html">
+        <div class="lvjing cover js-cover">
+            <div class="p-box">
+                <div class="p-item">
+                    <p>仿京东</p>
+                    <p>购物车结算jq，订单的选择或删除、数量的加减与金额的计算。</p>
+                </div>
+            </div>
+        </div>
+    </script>
+    <script id="imgCover6" type="text/html">
+        <div class="lvjing cover js-cover">
+            <div class="p-box">
+                <div class="p-item">
+                    <p>交警切图</p>
+                    <p>去除冗余代码，增加代码可复制性复制</p>
+                </div>
+            </div>
+        </div>
+    </script>
+    <script id="imgCover7" type="text/html">
+        <div class="lvjing cover js-cover">
+            <div class="p-box">
+                <div class="p-item">
+                    <p>个人档案</p>
+                    <p>table格式文本的排版及运用。</p>
+                </div>
+            </div>
+        </div>
+    </script>
+    <script id="imgCover8" type="text/html">
+        <div class="lvjing cover js-cover">
+            <div class="p-box">
+                <div class="p-item">
+                    <p>仿京东</p>
+                    <p>购物车结算jq，订单的选择或删除、数量的加减与金额的计算。</p>
+                </div>
+            </div>
+        </div>
+    </script>
+    <script>
+        $(function () {
+            main.into();
+        });
+    </script>
+
+</head>
+<body>
+<!-- home page -->
+<div class="home-page">
+    <div class="lvjing">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-md-offset-3">
+                    <p class="name wow bounceInDown" data-wow-duration="1s">大家好! &nbsp;我叫桑超</p>
+                    <p class="vision wow bounceInLeft" data-wow-duration="1s" data-wow-delay=".2s">一个愿为之奋斗终生的前端工程师</p>
+                    <div class="row wow bounceInRight" data-wow-duration="1s" data-wow-delay=".2s">
+                        <div class="col-md-4 col-md-offset-2 btn-box te-r">
+                            <a class="btn btn-default js-btn-my" href="#about-me" role="button">关于我</a>
+                        </div>
+                        <div class="col-md-4 btn-box te-l">
+                            <a class="btn btn-default js-btn-work" href="#Portfolio" role="button">作品集</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- home page end -->
+
+<!-- nav -->
+<nav class="navbar navbar-default navbar-static-top js-fixed">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed js-na-btn" data-toggle="collapse" data-target="#navbar"
+                    aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="https://sangchao8.github.io">github</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+
+
+            <ul class="nav navbar-nav navbar-right js-nav-ul">
+                <li class="active js-nav-li"><a href="#about-me">关于我</a></li>
+                <li class="js-nav-li"><a href="#job-intention">求职意向 <span class="sr-only">(current)</span></a></li>
+                <li class="js-nav-li"><a href="#Portfolio"> 技术掌握</a></li>
+                <li class="js-nav-li"><a href="#business-history"> 我的经历</a></li>
+                <li class="js-nav-li"><a href="#technique"> 联系我</a></li>
+            </ul>
+        </div><!--/.nav-collapse -->
+    </div>
+</nav>
+<!-- nav end-->
+
+<!--about me-->
+<div class="about-me" id="about-me">
+    <div class="container">
+        <div class="row wow bounceInUp" data-wow-duration="1s" data-wow-delay=".3s">
+            <div class="col-md-10 col-md-offset-1">
+                <p class="about-me-title">
+                    关于我
+                </p>
+                <div class="about-me-li"></div>
+                <div class="run-dot">
+                    <img src="img/my.png" alt="" class="img-responsive img-circle">
+                </div>
+                <div class="row">
+                    <div class="col-sm-3 col-xs-6 mag-bm">
+                        <div class="state-item">
+                            <span class="glyphicon glyphicon-user"></span>
+                            <p> 年龄/28岁 </p>
+                        </div>
+                    </div>
+                    <div class="col-sm-3 col-xs-6  mag-bm">
+                        <div class="state-item">
+                            <span class="glyphicon glyphicon-education"></span>
+                            <p> 学历/本科 </p>
+                        </div>
+                    </div>
+                    <div class="col-sm-3 col-xs-6 mag-bm">
+                        <div class="state-item">
+                            <span class="glyphicon glyphicon-map-marker"></span>
+                            <p> 坐标/南京 </p>
+                        </div>
+                    </div>
+                    <div class="col-sm-3 col-xs-6 mag-bm">
+                        <div class="state-item">
+                            <span class="glyphicon glyphicon-edit"></span>
+                            <p> 状态/离职 </p>
+                        </div>
+                    </div>
+                </div>
+                <p class="about-me-text">我叫桑超，今年28岁，现居住南京，是一名前端工程师。偶然的机会让我接触到了前端这门技术，而后就一发不可收拾，
+                    前端是一门不断需要学习的技术，而兴趣就是我的终生引师啦！
+                </p>
+            </div>
+        </div>
+    </div>
+
+</div>
+<!--about me end-->
+
+<!--job intention-->
+<div class="job-intention" id="job-intention">
+    <div class="container">
+        <div class="row wow bounceInLeft" data-wow-duration="1s" data-wow-delay=".3s">
+            <div class="col-md-10 col-md-offset-1">
+                <p class="about-me-title job">
+                    求职意向
+                </p>
+                <div class="about-me-li"></div>
+                <div class="row">
+                    <div class="col-md-3 col-xs-6 about-me-item">
+                        <img src="img/web.png" class="img-responsive">
+                        <p class="item-title">PS切图</p>
+                        <p class="item-text">
+                            从PSD上切出页面需要的图片
+                            将小图标合成spirts优化。
+                        </p>
+                    </div>
+                    <div class="col-md-3 col-xs-6 about-me-item">
+                        <img src="img/css.png" class="img-responsive">
+                        <p class="item-title">网页制作</p>
+                        <p class="item-text">
+                            响应式页面,简单不冗余代码。
+                            css3流畅动画效果。
+                        </p>
+                    </div>
+                    <div class="col-md-3 col-xs-6 about-me-item">
+                        <img src="img/js.png" class="img-responsive">
+                        <p class="item-title">前端功能</p>
+                        <p class="item-text">
+                            用JS完成常见的前端功能特效
+                            用AJAX读取后台数据。
+                        </p>
+                    </div>
+                    <div class="col-md-3 col-xs-6 about-me-item">
+                        <img src="img/h5.png" class="img-responsive">
+                        <p class="item-title">h5页面</p>
+                        <p class="item-text">
+                            运用Bootstrap布局
+                            兼容不同终端。
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--job intention end-->
+
+<!--Portfolio-->
+<div class="Portfolio" id="Portfolio">
+    <div class="container">
+        <div class="row wow bounceInUp" data-wow-duration="1s" data-wow-delay=".3s">
+            <div class="col-md-10 col-md-offset-1">
+                <p class="about-me-title">
+                    作品集
+                </p>
+                <div class="about-me-li"></div>
+                <p class="about-me-text">
+                    掌握Web前端开发基本技能，熟悉W3C标准、页面布局架构、前端语义化、浏览器兼容性等，有审美，重视用户体验与代码可维护性，有近1年多的前端开发经验。
+                </p>
+                <div class="row no-gutter">
+                    <a class="Portfolio-a js-Portfolio-a col-md-3 col-xs-6 " href="https://sangchao8.github.io/jd/"
+                       target="_blank">
+                        <img class="Portfolio-img js-Portfolio-img img-responsive" dataId='imgCover1'
+                             src="img/icon1.png"></img>
+                        <!--script id="imgCover1"-->
+                    </a>
+                    <a class="Portfolio-a js-Portfolio-a col-md-3 col-xs-6 "
+                       href="https://sangchao8.github.io/background-processing/index.html" target="_blank">
+                        <img class="Portfolio-img js-Portfolio-img img-responsive" dataId='imgCover2'
+                             src="img/icon2.png"></img>
+                    </a>
+                    <a class="Portfolio-a js-Portfolio-a col-md-3 col-xs-6 " href="https://sangchao8.github.io/xiaozhu/"
+                       target="_blank">
+                        <img class="Portfolio-img js-Portfolio-img img-responsive" dataId='imgCover3'
+                             src="img/icon4.png"></img>
+                    </a>
+                    <a class="Portfolio-a js-Portfolio-a col-md-3 col-xs-6 " href="" target="_blank">
+                        <img class="Portfolio-img js-Portfolio-img img-responsive" dataId='imgCover4'
+                             src="img/icon3.png"></img>
+                    </a>
+                    <a class="Portfolio-a js-Portfolio-a col-md-3 col-xs-0" href="">
+
+                        <!--script id="imgCover1"-->
+                    </a>
+                    <a class="Portfolio-a js-Portfolio-a col-md-3 col-xs-6 " href="https://sangchao8.github.io/nanjingTrafficPolice/
+" target="_blank">
+                        <img class="Portfolio-img js-Portfolio-img img-responsive" dataId='imgCover6'
+                             src="img/icon2.png"></img>
+                    </a>
+                    <a class="Portfolio-a js-Portfolio-a col-md-3 col-xs-6 "
+                       href="https://sangchao8.github.io/nanjingTrafficPolice/" target="_blank">
+                        <img class="Portfolio-img js-Portfolio-img img-responsive" dataId='imgCover7'
+                             src="img/icon4.png"></img>
+                    </a>
+                    <a class="Portfolio-a js-Portfolio-a col-md-3 col-xs-0 " href="">
+
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--Portfolio end-->
+
+<!--technique-->
+<div class="technique">
+    <div class="container">
+        <div class="row wow bounceInRight" data-wow-duration="1s" data-wow-delay=".3s">
+            <div class="col-md-10 col-md-offset-1">
+                <p class="about-me-title">
+                    技术掌握
+                </p>
+                <div class="about-me-li"></div>
+                <div class="row technique-item-box">
+                    <div class="col-md-3 col-xs-6 technique-item" id="technique-item1">
+
+                    </div>
+                    <div class="col-md-3 col-xs-6 col-xs-6 technique-item" id="technique-item2">
+
+                    </div>
+                    <div class="col-md-3 col-xs-6 col-xs-6 technique-item" id="technique-item3">
+
+                    </div>
+                    <div class="col-md-3 col-xs-6 col-xs-6 technique-item" id="technique-item4">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--technique end-->
+
+<!--business history-->
+<div class="business-history" id="business-history">
+    <div class="container center">
+        <div class="row">
+            <div class="col-md-10 col-md-offset-1">
+                <p class="about-me-title">
+                    工作经历
+                </p>
+                <div class="about-me-li"></div>
+            </div>
+            <div class="business-history-text col-md-10 col-md-offset-1">
+                <div class=" col-md-1 col-xs-2 col-md-offset-2">
+
+                </div>
+                <div class="history col-md-8 col-xs-8">
+                    <div class=""></div>
+                    <h4>石家庄天祥盛世科技有限公司</h4>
+                    <p class="col-red">技术部/前端工程师</p>
+                    <p>配合UI设计师，根据原型图通过HTML5+CSS进行代码实现和交互实现</p>
+                    <p>运用js与jq实现页面交互效果</p>
+                    <p>与后台人员配合实现ajax渲染数据，以及页面优化</p>
+                    <p>负责公司移动端项目的前期制作与动画效果，配合后台完成项目上线</p>
+                    <p>负责对页面进行优化，改善用户体验</p>
+
+                    <h4 class="margin-top">河北传媒学院</h4>
+                    <p class="col-red">大学本科</p>
+                    <p>计算机科学与技术</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!--business history-end-->
+
+<!--contact me-->
+<div class="technique" id="technique">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-10 col-md-offset-1">
+                <p class="about-me-title">
+                    联系我
+                </p>
+                <div class="about-me-li"></div>
+                <div class="about-me-tell">
+                    <div class="about-me-p">
+                        <p class="glyphicon glyphicon-phone">：18136604505</p>
+                        <a class="glyphicon glyphicon-envelope">：947934454@qq.com</a>
+                        <a href="https://sangchao8.github.io"><p class="github">：https://sangchao8.github.io</p></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--contact me end-->
+<!--top fixed-->
+<div class="top-fixed">
+    top
+</div>
+<!--top fixed end-->
+</body>
+</html>

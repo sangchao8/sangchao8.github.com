@@ -463,7 +463,7 @@ display: inline-block;
     display: none;
     position: fixed;
     font-size: 2em;
-    color: #b56969b0;
+    color: #d58181;
     background-color: #ffffff4d;
     bottom: 20%;
     right: 3%;
@@ -476,5 +476,8 @@ display: inline-block;
     cursor:  pointer;
     line-height:  50px;
     z-index:  20;
+}
+.top-fixed:hover{
+    color: #e57d45;
 }
 /*top-fixed end*/
